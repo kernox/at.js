@@ -1,5 +1,7 @@
 # At.js
 
+### Just an idea, no code for the moment
+
 ## Attributes
 - @click
 - @doubleclick
@@ -35,3 +37,15 @@
 ```html
 <button @click="class:add:alert->#another-element">
 ```
+
+### Toggle between two classes on a button
+```html
+<button @click="class:toggle:open,close">
+```
+
+### Remove class on #another-element
+```html
+<button @click="class:remove:open->#another-element">
+```
+
+
